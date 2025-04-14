@@ -1,1 +1,71 @@
-initial commit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Jackpot Estimates</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 10px; /* Reduced overall margin for mobile */
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            gap: 20px;
+            align-items: center; /* Center items horizontally */
+            margin-top: 20px;
+        }
+        .jackpot-card {
+            background-color: #fff;
+            padding: 20px; /* Reduced padding for mobile */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            width: 95%; /* Make cards take up most of the screen width */
+            max-width: 400px; /* Limit maximum width */
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        h2 {
+            color: #2e8b57;
+            margin-top: 0;
+            margin-bottom: 15px; /* Reduced bottom margin */
+            font-size: 1.8em; /* Slightly smaller heading */
+        }
+        p {
+            color: #555;
+            margin-bottom: 10px; /* Reduced bottom margin */
+            font-size: 1em;
+        }
+        .jackpot-amount {
+            font-size: 1.6em; /* Slightly smaller jackpot amount */
+            color: #ff8c00;
+            font-weight: bold;
+        }
+        .after-tax {
+            color: #888;
+            font-size: 0.8em;
+            font-style: italic;
+        }
+        .error {
+            color: #dc143c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Lottery Jackpot Estimates</h1>
+    <div class="container">
+        <div class="jackpot-card">
+            <h2>Powerball</h2>
+            <p>Jackpot: <span class="jackpot"><span class='jackpot-amount'>$100,000,000</span></span></p><p>Cash option after taxes (est. 27%): <span class="cash-option-after-taxes-(est.-27%)"><span class='after-tax'>$27,000,000</span></span></p><p>Estimated Draws to $1B: <span class="estimated-draws-to-$1b">37</span></p><p>Estimated Date to $1B: <span class="estimated-date-to-$1b">2025-07-07</span></p>
+        </div>
+        <div class="jackpot-card">
+            <h2>Mega Millions</h2>
+            <p>Jackpot: <span class="jackpot"><span class='jackpot-amount'>$96,000,000</span></span></p><p>Cash Option after taxes (est. 27%): <span class="cash-option-after-taxes-(est.-27%)"><span class='after-tax'>$25,920,000</span></span></p><p>Estimated Draws to $1B: <span class="estimated-draws-to-$1b">37</span></p><p>Estimated Date to $1B: <span class="estimated-date-to-$1b">2025-07-07</span></p>
+        </div>
+    </div>
+</body>
+</html>
