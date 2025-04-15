@@ -220,7 +220,7 @@ def main():
 
     html_output = generate_html(pb_data, mm_data)
 
-    with open("/var/www/html/lottery/index.html", "w") as f:
+    with open("/Users/julio/netlotto.github.io/index.html", "w") as f:
         f.write(html_output)
 
     print("\nLottery jackpot estimates saved to lottery_estimates.html")
